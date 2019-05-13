@@ -1,0 +1,10 @@
+<view class="section tc">
+  <video
+    id="myVideo"
+    src="https://135zyv6.xw0371.com/2019/02/07/tY7tGJKij6736neY/playlist.m3u8"
+    danmu-list="{{danmuList}}"
+    enable-danmu
+    danmu-btn
+    controls
+  ></video>
+</view>

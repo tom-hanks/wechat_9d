@@ -1,0 +1,36 @@
+<view class='nav_ul clearfix'>
+  <view class='nav_li'>
+    <text>导航1</text>
+    <text>导航2</text>
+    <text>导航3</text>
+    <text>导航4</text>
+  </view>
+</view>
+<!-- 搜索框 -->
+<view class="seacher">
+  <input placeholder-style="color:#cccccc" placeholder="占位符字体是红色的" />
+</view>
+
+<!-- 列表 -->
+<view>
+</view>
+<view class="our_list">
+  <navigator url='./video/video_room'>
+    <!-- <text class='fenlei'>1111111</text> -->
+    <view class='list_hef'>
+      <text class='fenlei'>我是名字</text>
+      <!-- <view class='kaibo_status1' wx:if="{{item.status==2 || item.status==3}}">
+          <view class='kaibo_yuan1'></view>未直播</view> -->
+      <view class='kaibo_status2' wx:if="{{item.status==1}}">
+        <view class='kaibo_yuan2'></view>直播中</view>
+      <text class='biaoti_title'>我说房间地址</text>
+    </view>
+    <view class='biaoti_f clearfix'>
+      <text class='biaoti_name'>我也是名字</text>
+      <view class='biaoti_liulan'>
+        <text class='shuliang'>这是观看数量</text>
+        <image class='biaoti_yanjin' src='../../images/indexpage/yanjing.png'></image>
+      </view>
+    </view>
+  </navigator>
+</view>

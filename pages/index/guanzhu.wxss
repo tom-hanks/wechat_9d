@@ -1,0 +1,164 @@
+/* pages/index/indexpages.wxss */
+.flex-item{
+  width: 33.3%;
+  height: 180rpx;
+  text-align: center;
+  line-height: 180rpx;
+  float: left;
+}
+.our_list{
+  width:50%;
+  float:left;
+  /* border:2rpx solid red; */
+  padding:5rpx;
+  box-sizing:border-box;
+  position: relative;
+}
+.biaoti_fengmian{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+.list_hef{
+  width: 100%;
+  height: 220rpx;
+  border-radius: 10rpx;
+  margin: 0 auto;
+  background: url(http://wap.9dcj.com.cn/Public/images/9d_default/default1.png)no-repeat center;
+  background-size: 100% 100%;
+  position: relative;
+  overflow: hidden;
+}
+.biaoti_title{
+  width:100%;
+  height: 40rpx;
+  line-height: 40rpx;
+  font-size: 28rpx;
+  padding-left: 10rpx;
+  color:#fff;
+  background: rgba(0,0,0,.5);
+  position: absolute;
+  bottom: 0;
+  overflow: hidden;
+  text-overflow:ellipsis;
+  white-space: nowrap;
+
+}
+.biaoti_name{
+  width:50%;
+  height: 40rpx;
+  line-height: 40rpx;
+  font-size: 24rpx;
+  float: left;
+}
+.biaoti_liulan{
+  width:50%;
+  overflow: hidden;
+  height: 40rpx;
+  line-height: 40rpx;
+  float: left;
+  font-size: 20rpx;
+  text-align: right;
+}
+.shuliang{
+  float: right;
+  color:#999;
+}
+.biaoti_yanjin{
+  width:40rpx;
+  height: 40rpx;
+  float: right;
+}
+.nav_ul{
+  /* width:100%; */
+  /* display: block; */
+  margin: 10rpx auto;
+  margin-bottom:15rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+}
+.nav_li{
+  float: left;
+  text-align: center;
+  font-size: 28rpx;
+  box-sizing: border-box;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  flex: 1; 
+}
+.nav_li_xuanzhong{
+  height: 44rpx;
+  line-height: 40rpx;
+  border-bottom:4rpx solid red;
+  padding:10rpx 20rpx; 
+}
+.kaibo_status1{
+  width:120rpx;
+  height: 40rpx;
+  line-height: 35rpx;
+  border:2rpx solid #9d9d9e;
+  background: #fff;
+  color:#9d9d9e;
+  border-radius: 18rpx;
+  position: absolute;
+  top:10rpx;
+  right: 10rpx;
+  z-index: 2;
+  font-size: 28rpx;
+}
+.kaibo_status2{
+  width:120rpx;
+  height: 40rpx;
+  line-height: 35rpx;
+  border:2rpx solid #9d9d9e;
+  background: #fff;
+  /* color:#9d9d9e; */
+  border-radius: 18rpx;
+  position: absolute;
+  top:10rpx;
+  right: 10rpx;
+  z-index: 2;
+  font-size: 28rpx;
+}
+.kaibo_yuan1{
+  display: inline-block;
+  border-radius: 15rpx;
+  width: 20rpx;
+  height: 20rpx;
+  margin-left: 6rpx;
+  background: #9d9d9e;
+}
+.kaibo_yuan2{
+  display: inline-block;
+  border-radius: 15rpx;
+  width: 20rpx;
+  height: 20rpx;
+  margin-left: 10rpx;
+  background: red;
+}
+.fenlei{
+  position: absolute;
+  top:6rpx;
+  left: 6rpx;
+  z-index: 2;
+  background-color: rgba(0,0,0,0.5);
+  color:#fff;
+  border-radius: 8rpx;
+  font-size:28rpx;
+  padding: 4rpx;
+  padding-top: 2rpx;
+  padding-bottom: 2rpx;
+}
+.seacher>input{
+  display: block;
+  margin:0 auto;
+  height:30rpx;
+  padding-left:10rpx;
+  font-size: 24rpx;
+  border-radius:30rpx;
+  color:#cccccc;
+  width:80%;
+  border:2rpx solid #cccccc;
+}

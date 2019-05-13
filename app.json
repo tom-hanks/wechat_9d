@@ -1,0 +1,55 @@
+{
+  "pages": [
+    "pages/index/indexpages",
+    "pages/index/guanzhu",
+    "pages/index/index",
+    "pages/index/caijinquan",
+    "pages/index/shiping",
+    "pages/index/my",
+    "pages/index/live_room/live_room",
+    "pages/index/video/video_room",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "9度财经bate",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "position": "bottom",
+    "list": [
+      {
+        "selectedIconPath": "images/index/shouye1.png",
+        "iconPath": "images/index/shouye2.png",
+        "pagePath": "pages/index/indexpages",
+        "text": "首页"
+      },
+      {
+        "selectedIconPath": "images/index/guanzhu1.png",
+        "iconPath": "images/index/guanzhu2.png",
+        "pagePath": "pages/index/guanzhu",
+        "text": "关注"
+      },
+      {
+        "selectedIconPath": "images/index/caijingquan1.png",
+        "iconPath": "images/index/caijingquan2.png",
+        "pagePath": "pages/index/caijinquan",
+        "text": "财经圈"
+      },
+      {
+        "selectedIconPath": "images/index/shipin2.png",
+        "iconPath": "images/index/shipin1.png",
+        "pagePath": "pages/logs/logs",
+        "text": "视频"
+      },
+      {
+        "selectedIconPath": "images/index/my1.png",
+        "iconPath": "images/index/my2.png",
+        "pagePath": "pages/logs/logs",
+        "text": "我的"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

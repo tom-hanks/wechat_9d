@@ -1,0 +1,43 @@
+<!-- <view class="section">
+  <view class="section__title">flex-direction: row</view>
+  <view class="flex-wrp" style="flex-direction:row;">
+    <view class="flex-item bc_green">1</view>
+    <view class="flex-item bc_red">2</view>
+    <view class="flex-item bc_blue">3</view>
+  </view>
+</view>
+<view class="section">
+  <view class="section__title">flex-direction: column</view>
+  <view class="flex-wrp" style="height: 300px;flex-direction:column;">
+    <view class="flex-item bc_green">1</view>
+    <view class="flex-item bc_red">2</view>
+    <view class="flex-item bc_blue">3</view>
+  </view>
+</view> -->
+<view class='clearfix'>
+  <view class='nav_ul clearfix'>
+    <view class='nav_li' wx:for="{{nav1}}" wx:key='index' bindtap='shopPost' id="{{item.id}}">
+      <text class="{{item.id==classifyid?'nav_li_xuanzhong':''}}">{{ item.name }}</text>
+    </view>
+  </view>
+  <view class="our_list" wx:for="{{arr1}}" wx:key="key">
+    <navigator url='./live_room/live_room?roomid={{item.url_roomid}}'>
+      <view class='list_hef' data-status="{{item.status}}">
+        <text class='fenlei'>{{item.classifyname}}</text>
+        <view class='kaibo_status1' wx:if="{{item.status==2 || item.status==3}}">
+          <view class='kaibo_yuan1'></view>未直播</view>
+        <view class='kaibo_status2' wx:if="{{item.status==1}}">
+          <view class='kaibo_yuan2'></view>直播中</view>
+        <image src="{{item.roomimage}}" class='biaoti_fengmian'></image>
+        <text class='biaoti_title'>{{item.roomtitle}}</text>
+      </view>
+      <view class='biaoti_f clearfix'>
+        <text class='biaoti_name'>{{item.nickname}}</text>
+        <view class='biaoti_liulan'>
+          <text class='shuliang'>{{item.hits}}</text>
+          <image class='biaoti_yanjin' src='../../images/indexpage/yanjing.png'></image>
+        </view>
+      </view>
+    </navigator>
+  </view>
+</view>

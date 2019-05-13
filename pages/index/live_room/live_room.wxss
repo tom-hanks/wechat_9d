@@ -1,0 +1,18 @@
+.section {
+  background: red;
+}
+
+.live_flash {
+  display: block;
+  /* width: 100vw;height: 100vh; */
+  width: 100%;
+  height: 225px;
+  position: relative;
+}
+.full_img {
+  width: 100rpx;
+  height: 100rpx;
+  position: absolute;
+  bottom: 50rpx;
+  right: 50rpx;
+}
